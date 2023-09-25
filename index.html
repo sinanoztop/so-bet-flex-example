@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Menu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/e121c1b687.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body class = "dark">
+<button class = "make-dark" style = "margin: 20px;" type = "submit">Tema Değiştir</button>
+<div class="table-w">
+    <div class="table-sec">
+        <div class="white-sec sec-1">
+            <span class = "bold-text">32388 Sezonu, 5. Maç Günü</span>
+            <span>
+                <select >
+                    <option value="EU">Ondalıklı (3.50)</option>
+                    <option value="UK">Kesirli (5/2)</option>
+                    <option value="US">Amerikan (+105)</option>
+                </select>
+            </span>
+        </div>
+        <div class="tabs">
+            <span class = "active">Kazanan</span>
+            <span>İlk Devre Kazananı</span>
+            <span>Maç Skoru</span>
+            <span>Bir Sonraki Gol (0:0)</span>
+            <span>Handikap (SF)</span>
+            <span>Toplam Gol (SF)</span>
+        </div>
+        <div class="match-list">
+            <div class="match">
+                <div class="match-sec-1">
+                    <span></span>
+                    <span class = "right">
+                        <span>Ev Sahibi</span>
+                        <span>Beraberlik</span>
+                        <span>Deplasman</span>
+                    </span>
+                </div>
+                <div class="match-sec-2">
+                    <span class = "left">VL Vienna v VL Berlin</span>
+                    <span class = "right">
+                        <span class = "price-bt">4.55</span>
+                        <span class = "price-bt">3.45</span>
+                        <span class = "price-bt">1.65</span>
+                    </span>
+                </div>
+                <div class="match-sec-3">
+                    <span class = "show-more">
+                        <span>Daha fazla seçenek <em class = "fas fa-angle-down"></em></span>
+                    </span>
+                </div>
+                <div class="match-toggle">
+                    <div class="match-option-item">
+                        <div class="option-1">
+                            <span class = "left">B  İlk Devre Kazananı</span>
+                            <span class = "right">j</span>
+                        </div>
+                        <div class = "toggle-i">
+                            <div class="option-2">
+                                <span></span>
+                                <span class = "right">
+                                    <span>Ev Sahibi</span>
+                                    <span>Beraberlik</span>
+                                    <span>Deplasman</span>
+                                </span>
+                            </div>
+                            <div class="option-3">
+                                <span class = "left">VL Vienna v VL Berlin</span>
+                                <span class = "right">
+                                    <span class = "price-bt">4.55</span>
+                                    <span class = "price-bt">3.45</span>
+                                    <span class = "price-bt">1.65</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="match-option-item">
+                        <div class="option-1">
+                            <span class = "left">B Maç Skoru</span>
+                            <span class = "right">j</span>
+                        </div>
+                        <div class = "toggle-i">
+                            <div class="option-grid">
+                                <div>
+                                    <div class="head">Ev Sahibi</div>
+                                    <div class="list">
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="head">Berabere</div>
+                                    <div class="list">
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="head">Deplasman</div>
+                                    <div class="list">
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="match-option-item">
+                        <div class="option-1">
+                            <span class = "left"> Bir Sonraki Gol (0:0)</span>
+                            <span class = "right">j</span>
+                        </div>
+                        <div class="toggle-i">
+                            <div class="option-classic">
+                                <div>
+                                    <span>VL Vienna</span>
+                                    <span class = "price-bt">2.80</span>
+                                </div>
+                                <div>
+                                    <span>VL Vienna</span>
+                                    <span class = "price-bt">2.80</span>
+                                </div>
+                                <div>
+                                    <span>VL Vienna</span>
+                                    <span class = "price-bt">2.80</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="match-option-item">
+                        <div class="option-1">
+                            <span class = "left">B Handikap (SF)</span>
+                            <span class = "right">j</span>
+                        </div>
+                        <div class = "toggle-i">
+                            <div class="option-2">
+                                <span></span>
+                                <span class = "right">
+                                    <span>VL Vienna</span>
+                                    <span>Berabere</span>
+                                    <span>VL Berlin</span>
+                                </span>
+                            </div>
+                            <div class="option-classic-2">
+                                <div>
+                                    <span class="left"> Handikap -2</span>
+                                    <span class = "right">
+                                        <span class = "price-bt">38.00</span>
+                                        <span class = "price-bt">8.50</span>
+                                        <span class = "price-bt">1.02</span>
+                                    </span>
+                                </div>
+                                <div>
+                                    <span class="left"> Handikap - 1</span>
+                                    <span class = "right">
+                                        <span class = "price-bt">38.00</span>
+                                        <span class = "price-bt">8.50</span>
+                                        <span class = "price-bt">1.02</span>
+                                    </span>
+                                </div>
+                                <div>
+                                    <span class="left"> Handikap - 0</span>
+                                    <span class = "right">
+                                        <span class = "price-bt">38.00</span>
+                                        <span class = "price-bt">8.50</span>
+                                        <span class = "price-bt">1.02</span>
+                                    </span>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="match-option-item">
+                        <div class="option-1">
+                            <span class = "left">B Maç Skoru</span>
+                            <span class = "right">j</span>
+                        </div>
+                        <div class = "toggle-i">
+                            <div class="option-grid two">
+                                <div>
+                                    <div class="list">
+                                        <div>
+                                            <span>Üst</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>Üst 1</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>Üst 2</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="list">
+                                        <div>
+                                            <span>Üst</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>Üst 1</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>Üst 2</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="match">
+                <div class="match-sec-1">
+                    <span></span>
+                    <span class = "right">
+                        <span>Ev Sahibi</span>
+                        <span>Beraberlik</span>
+                        <span>Deplasman</span>
+                    </span>
+                </div>
+                <div class="match-sec-2">
+                    <span class = "left">VL Vienna v VL Berlin</span>
+                    <span class = "right">
+                        <span class = "price-bt">4.55</span>
+                        <span class = "price-bt">3.45</span>
+                        <span class = "price-bt">1.65</span>
+                    </span>
+                </div>
+                <div class="match-sec-3">
+                    <span class = "show-more">
+                        <span>Daha fazla seçenek <em class = "fas fa-angle-down"></em></span>
+                    </span>
+                </div>
+                <div class="match-toggle">
+                    <div class="match-option-item">
+                        <div class="option-1">
+                            <span class = "left">B  İlk Devre Kazananı</span>
+                            <span class = "right">j</span>
+                        </div>
+                        <div class = "toggle-i">
+                            <div class="option-2">
+                                <span></span>
+                                <span class = "right">
+                                    <span>Ev Sahibi</span>
+                                    <span>Beraberlik</span>
+                                    <span>Deplasman</span>
+                                </span>
+                            </div>
+                            <div class="option-3">
+                                <span class = "left">VL Vienna v VL Berlin</span>
+                                <span class = "right">
+                                    <span class = "price-bt">4.55</span>
+                                    <span class = "price-bt">3.45</span>
+                                    <span class = "price-bt">1.65</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="match-option-item">
+                        <div class="option-1">
+                            <span class = "left">B Maç Skoru</span>
+                            <span class = "right">j</span>
+                        </div>
+                        <div class = "toggle-i">
+                            <div class="option-grid">
+                                <div>
+                                    <div class="head">Ev Sahibi</div>
+                                    <div class="list">
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="head">Berabere</div>
+                                    <div class="list">
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="head">Deplasman</div>
+                                    <div class="list">
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="match-option-item">
+                        <div class="option-1">
+                            <span class = "left"> Bir Sonraki Gol (0:0)</span>
+                            <span class = "right">j</span>
+                        </div>
+                        <div class="toggle-i">
+                            <div class="option-classic">
+                                <div>
+                                    <span>VL Vienna</span>
+                                    <span class = "price-bt">2.80</span>
+                                </div>
+                                <div>
+                                    <span>VL Vienna</span>
+                                    <span class = "price-bt">2.80</span>
+                                </div>
+                                <div>
+                                    <span>VL Vienna</span>
+                                    <span class = "price-bt">2.80</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="match-option-item">
+                        <div class="option-1">
+                            <span class = "left">B Handikap (SF)</span>
+                            <span class = "right">j</span>
+                        </div>
+                        <div class = "toggle-i">
+                            <div class="option-2">
+                                <span></span>
+                                <span class = "right">
+                                    <span>VL Vienna</span>
+                                    <span>Berabere</span>
+                                    <span>VL Berlin</span>
+                                </span>
+                            </div>
+                            <div class="option-classic-2">
+                                <div>
+                                    <span class="left"> Handikap -2</span>
+                                    <span class = "right">
+                                        <span class = "price-bt">38.00</span>
+                                        <span class = "price-bt">8.50</span>
+                                        <span class = "price-bt">1.02</span>
+                                    </span>
+                                </div>
+                                <div>
+                                    <span class="left"> Handikap - 1</span>
+                                    <span class = "right">
+                                        <span class = "price-bt">38.00</span>
+                                        <span class = "price-bt">8.50</span>
+                                        <span class = "price-bt">1.02</span>
+                                    </span>
+                                </div>
+                                <div>
+                                    <span class="left"> Handikap - 0</span>
+                                    <span class = "right">
+                                        <span class = "price-bt">38.00</span>
+                                        <span class = "price-bt">8.50</span>
+                                        <span class = "price-bt">1.02</span>
+                                    </span>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="match-option-item">
+                        <div class="option-1">
+                            <span class = "left">B Maç Skoru</span>
+                            <span class = "right">j</span>
+                        </div>
+                        <div class = "toggle-i">
+                            <div class="option-grid two">
+                                <div>
+                                    <div class="list">
+                                        <div>
+                                            <span>Üst</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>Üst 1</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>Üst 2</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="list">
+                                        <div>
+                                            <span>Üst</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>Üst 1</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>Üst 2</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="match">
+                <div class="match-sec-1">
+                    <span></span>
+                    <span class = "right">
+                        <span>Ev Sahibi</span>
+                        <span>Beraberlik</span>
+                        <span>Deplasman</span>
+                    </span>
+                </div>
+                <div class="match-sec-2">
+                    <span class = "left">VL Vienna v VL Berlin</span>
+                    <span class = "right">
+                        <span class = "price-bt">4.55</span>
+                        <span class = "price-bt">3.45</span>
+                        <span class = "price-bt">1.65</span>
+                    </span>
+                </div>
+                <div class="match-sec-3">
+                    <span class = "show-more">
+                        <span>Daha fazla seçenek <em class = "fas fa-angle-down"></em></span>
+                    </span>
+                </div>
+                <div class="match-toggle">
+                    <div class="match-option-item">
+                        <div class="option-1">
+                            <span class = "left">B  İlk Devre Kazananı</span>
+                            <span class = "right">j</span>
+                        </div>
+                        <div class = "toggle-i">
+                            <div class="option-2">
+                                <span></span>
+                                <span class = "right">
+                                    <span>Ev Sahibi</span>
+                                    <span>Beraberlik</span>
+                                    <span>Deplasman</span>
+                                </span>
+                            </div>
+                            <div class="option-3">
+                                <span class = "left">VL Vienna v VL Berlin</span>
+                                <span class = "right">
+                                    <span class = "price-bt">4.55</span>
+                                    <span class = "price-bt">3.45</span>
+                                    <span class = "price-bt">1.65</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="match-option-item">
+                        <div class="option-1">
+                            <span class = "left">B Maç Skoru</span>
+                            <span class = "right">j</span>
+                        </div>
+                        <div class = "toggle-i">
+                            <div class="option-grid">
+                                <div>
+                                    <div class="head">Ev Sahibi</div>
+                                    <div class="list">
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="head">Berabere</div>
+                                    <div class="list">
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="head">Deplasman</div>
+                                    <div class="list">
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="match-option-item">
+                        <div class="option-1">
+                            <span class = "left"> Bir Sonraki Gol (0:0)</span>
+                            <span class = "right">j</span>
+                        </div>
+                        <div class="toggle-i">
+                            <div class="option-classic">
+                                <div>
+                                    <span>VL Vienna</span>
+                                    <span class = "price-bt">2.80</span>
+                                </div>
+                                <div>
+                                    <span>VL Vienna</span>
+                                    <span class = "price-bt">2.80</span>
+                                </div>
+                                <div>
+                                    <span>VL Vienna</span>
+                                    <span class = "price-bt">2.80</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="match-option-item">
+                        <div class="option-1">
+                            <span class = "left">B Handikap (SF)</span>
+                            <span class = "right">j</span>
+                        </div>
+                        <div class = "toggle-i">
+                            <div class="option-2">
+                                <span></span>
+                                <span class = "right">
+                                    <span>VL Vienna</span>
+                                    <span>Berabere</span>
+                                    <span>VL Berlin</span>
+                                </span>
+                            </div>
+                            <div class="option-classic-2">
+                                <div>
+                                    <span class="left"> Handikap -2</span>
+                                    <span class = "right">
+                                        <span class = "price-bt">38.00</span>
+                                        <span class = "price-bt">8.50</span>
+                                        <span class = "price-bt">1.02</span>
+                                    </span>
+                                </div>
+                                <div>
+                                    <span class="left"> Handikap - 1</span>
+                                    <span class = "right">
+                                        <span class = "price-bt">38.00</span>
+                                        <span class = "price-bt">8.50</span>
+                                        <span class = "price-bt">1.02</span>
+                                    </span>
+                                </div>
+                                <div>
+                                    <span class="left"> Handikap - 0</span>
+                                    <span class = "right">
+                                        <span class = "price-bt">38.00</span>
+                                        <span class = "price-bt">8.50</span>
+                                        <span class = "price-bt">1.02</span>
+                                    </span>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="match-option-item">
+                        <div class="option-1">
+                            <span class = "left">B Maç Skoru</span>
+                            <span class = "right">j</span>
+                        </div>
+                        <div class = "toggle-i">
+                            <div class="option-grid two">
+                                <div>
+                                    <div class="list">
+                                        <div>
+                                            <span>Üst</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>Üst 1</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>Üst 2</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="list">
+                                        <div>
+                                            <span>Üst</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>Üst 1</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>Üst 2</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="match">
+                <div class="match-sec-1">
+                    <span></span>
+                    <span class = "right">
+                        <span>Ev Sahibi</span>
+                        <span>Beraberlik</span>
+                        <span>Deplasman</span>
+                    </span>
+                </div>
+                <div class="match-sec-2">
+                    <span class = "left">VL Vienna v VL Berlin</span>
+                    <span class = "right">
+                        <span class = "price-bt">4.55</span>
+                        <span class = "price-bt">3.45</span>
+                        <span class = "price-bt">1.65</span>
+                    </span>
+                </div>
+                <div class="match-sec-3">
+                    <span class = "show-more">
+                        <span>Daha fazla seçenek <em class = "fas fa-angle-down"></em></span>
+                    </span>
+                </div>
+                <div class="match-toggle">
+                    <div class="match-option-item">
+                        <div class="option-1">
+                            <span class = "left">B  İlk Devre Kazananı</span>
+                            <span class = "right">j</span>
+                        </div>
+                        <div class = "toggle-i">
+                            <div class="option-2">
+                                <span></span>
+                                <span class = "right">
+                                    <span>Ev Sahibi</span>
+                                    <span>Beraberlik</span>
+                                    <span>Deplasman</span>
+                                </span>
+                            </div>
+                            <div class="option-3">
+                                <span class = "left">VL Vienna v VL Berlin</span>
+                                <span class = "right">
+                                    <span class = "price-bt">4.55</span>
+                                    <span class = "price-bt">3.45</span>
+                                    <span class = "price-bt">1.65</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="match-option-item">
+                        <div class="option-1">
+                            <span class = "left">B Maç Skoru</span>
+                            <span class = "right">j</span>
+                        </div>
+                        <div class = "toggle-i">
+                            <div class="option-grid">
+                                <div>
+                                    <div class="head">Ev Sahibi</div>
+                                    <div class="list">
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="head">Berabere</div>
+                                    <div class="list">
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="head">Deplasman</div>
+                                    <div class="list">
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>1-0</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="match-option-item">
+                        <div class="option-1">
+                            <span class = "left"> Bir Sonraki Gol (0:0)</span>
+                            <span class = "right">j</span>
+                        </div>
+                        <div class="toggle-i">
+                            <div class="option-classic">
+                                <div>
+                                    <span>VL Vienna</span>
+                                    <span class = "price-bt">2.80</span>
+                                </div>
+                                <div>
+                                    <span>VL Vienna</span>
+                                    <span class = "price-bt">2.80</span>
+                                </div>
+                                <div>
+                                    <span>VL Vienna</span>
+                                    <span class = "price-bt">2.80</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="match-option-item">
+                        <div class="option-1">
+                            <span class = "left">B Handikap (SF)</span>
+                            <span class = "right">j</span>
+                        </div>
+                        <div class = "toggle-i">
+                            <div class="option-2">
+                                <span></span>
+                                <span class = "right">
+                                    <span>VL Vienna</span>
+                                    <span>Berabere</span>
+                                    <span>VL Berlin</span>
+                                </span>
+                            </div>
+                            <div class="option-classic-2">
+                                <div>
+                                    <span class="left"> Handikap -2</span>
+                                    <span class = "right">
+                                        <span class = "price-bt">38.00</span>
+                                        <span class = "price-bt">8.50</span>
+                                        <span class = "price-bt">1.02</span>
+                                    </span>
+                                </div>
+                                <div>
+                                    <span class="left"> Handikap - 1</span>
+                                    <span class = "right">
+                                        <span class = "price-bt">38.00</span>
+                                        <span class = "price-bt">8.50</span>
+                                        <span class = "price-bt">1.02</span>
+                                    </span>
+                                </div>
+                                <div>
+                                    <span class="left"> Handikap - 0</span>
+                                    <span class = "right">
+                                        <span class = "price-bt">38.00</span>
+                                        <span class = "price-bt">8.50</span>
+                                        <span class = "price-bt">1.02</span>
+                                    </span>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="match-option-item">
+                        <div class="option-1">
+                            <span class = "left">B Maç Skoru</span>
+                            <span class = "right">j</span>
+                        </div>
+                        <div class = "toggle-i">
+                            <div class="option-grid two">
+                                <div>
+                                    <div class="list">
+                                        <div>
+                                            <span>Üst</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>Üst 1</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>Üst 2</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="list">
+                                        <div>
+                                            <span>Üst</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>Üst 1</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                        <div>
+                                            <span>Üst 2</span>
+                                            <span class = "price-bt">7.50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type = "text/javascript">
+    $( function(){
+        $( ".show-more" ).on( "click", function(){
+            $( this ).parent().next().toggleClass( "active" );
+            if( $( this ).parent().next().hasClass( "active" ) ){
+                $( this ).find( "em" ).addClass( "fa-angle-up" );
+                $( this ).find( "em" ).removeClass( "fa-angle-down" );
+            }else{
+                $( this ).find( "em" ).removeClass( "fa-angle-up" );
+                $( this ).find( "em" ).addClass( "fa-angle-down" );
+            }
+        });
+
+        $( ".tabs span" ).on( "click", function(){
+            $( ".tabs span" ).removeClass( "active" );
+            $( this ).addClass( "active" );
+        }); 
+        $( ".match-option-item .option-1 .right" ).on( "click", function(){
+            $( this ).parent().next().slideToggle();
+        }); 
+        $( ".price-bt" ).on( "click", function(){
+            $( ".price-bt" ).removeClass( "active" );
+            $( this ).addClass( "active" );
+        });
+        $( ".make-dark" ).on( "click", function(){
+            $( "body" ).toggleClass( "dark" );
+        });
+    });
+</script>
+</body>
+</html>
